@@ -20,7 +20,7 @@ function UserPhotos() {
   const nav = useNavigate();
 
  
-  /*start edit
+  /*start edit comment
   const [editing, setEditing] = useState(null);
   const [editText, setEditText] = useState("");
 
@@ -40,7 +40,7 @@ const handleUpdate = async (photoId, commentId) => {
 end edit */
 
 
- /* start delete
+ /* start delete comment
  const handleDelete = async (photoId, commentId) => {
   const confirm = window.confirm("Bạn có chắc muốn xóa comment này?");
   if (!confirm) return;
