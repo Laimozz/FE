@@ -9,7 +9,7 @@ const UserList = () => {
   const token = localStorage.getItem("token");
   const nav = useNavigate();
 
-// start liet ke
+// start liet ke người dùng có từ 2 ảnh trở lên 
 /*
 const [showUsersWithPhotos, setShowUsersWithPhotos] = useState(false);
 const [usersWithPhotos, setUsersWithPhotos] = useState([]);
@@ -80,7 +80,7 @@ const fetchUsersWithPhotos = async () => {
       </List>
 
 
-{/*liet ke */}
+{/*liet ke người dùng có từ 2 ảnh trở lên  */}
 {/*
       <button onClick={fetchUsersWithPhotos}>Hiện người dùng có ≥2 ảnh</button>
 {showUsersWithPhotos && (
