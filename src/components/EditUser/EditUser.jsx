@@ -15,10 +15,7 @@ function EditUser() {
     description: "",
     occupation: ""
   });
-// test hehe haha
-  //fetch di xem nao
-  //test 123
-  //123456
+
   useEffect(() => {
     const fetchUser = async () => {
       const res = await fetch(`http://localhost:8081/api/user/${user_id}`, {
